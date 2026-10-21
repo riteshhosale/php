@@ -51,10 +51,7 @@ main { box-sizing: border-box; }
 <p class="message">Welcome <?= htmlspecialchars($user, ENT_QUOTES, "UTF-8") ?>
 </p>
 <p>This page stores a user value in a PHP session.</p>
-<!-- Practical note: the heading identifies the concept demonstrated by this file. -->
-<!-- Output note: PHP results are rendered in the main content card. -->
-<!-- Styling note: responsive CSS is embedded in this same PHP file. -->
-<!-- Testing note: run through a PHP-enabled server to see the output. -->
+
 </main>
 </body>
 </html>
