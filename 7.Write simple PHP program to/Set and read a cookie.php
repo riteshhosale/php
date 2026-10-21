@@ -1,7 +1,8 @@
 <?php
+$cookiePath = "/"; // Change to your project folder path when deploying under a subdirectory.
 setcookie("user", "Ritesh", [
     "expires" => time() + 3600,
-    "path" => "/",
+    "path" => $cookiePath,
     "samesite" => "Lax"
 ]);
 $user = $_COOKIE["user"] ?? null;
@@ -20,7 +21,7 @@ $user = $_COOKIE["user"] ?? null;
 <?php if ($user !== null): ?>
 <p class="message">Welcome <?= htmlspecialchars($user, ENT_QUOTES, "UTF-8") ?></p>
 <?php else: ?>
-<p class="message">Cookie set. Refresh this page to read its value.</p>
+<p class="message">Cookie sent. Refresh this page to read the value from the next request.</p>
 <?php endif; ?>
 </main>
 </body>
