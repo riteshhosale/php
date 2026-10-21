@@ -52,8 +52,7 @@ hr { border: 0; border-top: 1px solid #ccc; }
 </span>
 <?php endforeach; ?>
 </section>
-<!-- Practical note: the heading identifies the concept demonstrated by this file. -->
-<!-- Output note: PHP results are rendered in the main content card. -->
+
 </main>
 </body>
 </html>
