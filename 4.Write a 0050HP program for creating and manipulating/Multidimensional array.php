@@ -7,7 +7,7 @@ $students = [["Ritesh", 80], ["Amit", 75], ["Rahul", 85]];
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Multidimensional Array</title>
-<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../../assets/style.css">
 </head>
 <body>
 <main class="card">
