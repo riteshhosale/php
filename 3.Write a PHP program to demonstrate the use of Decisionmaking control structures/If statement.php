@@ -1,6 +1,9 @@
 <?php
 $a = 10;
-$message = $a > 0 ? "Number is positive" : "";
+$message = "";
+if ($a > 0) {
+    $message = "Number is positive";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,9 +16,7 @@ $message = $a > 0 ? "Number is positive" : "";
 <body>
 <main class="card">
 <h1>If Statement</h1>
-<section class="output">
-<?= htmlspecialchars($message, ENT_QUOTES, "UTF-8") ?>
-</section>
+<section class="output"><?= htmlspecialchars($message, ENT_QUOTES, "UTF-8") ?></section>
 </main>
 </body>
 </html>
