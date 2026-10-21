@@ -1,13 +1,10 @@
-
 <?php
-$fruits = array("Apple", "Mango", "Banana");
-
-echo $fruits[0] . "<br>";
-
+// This practical is available as a styled web page in "Indexed array.php".
+// Keep a simple CLI fallback if this file is run directly.
+$fruits = ["Apple", "Mango", "Banana"];
+echo $fruits[0] . PHP_EOL;
 $fruits[1] = "Orange";
 $fruits[] = "Grapes";
-
 foreach ($fruits as $fruit) {
-    echo $fruit . "<br>";
+    echo $fruit . PHP_EOL;
 }
-?>
