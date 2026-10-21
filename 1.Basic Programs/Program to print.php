@@ -1,4 +1,16 @@
-
-<?php
-echo "Welcome to PHP";
-?>\n<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<title>Program to print</title>\n<link rel="stylesheet" href="../assets/style.css">\n</head>\n<body>\n<main class="card">\n<h1>Program to print</h1>\n<div class="output">\n<?php\necho "Welcome to PHP";\n?>\n</div>\n</main>\n</body>\n</html>\n
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to PHP</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<main class="card">
+<h1>Basic PHP Program</h1>
+<p>Output</p>
+<div class="output"><?php echo "Welcome to PHP"; ?></div>
+</main>
+</body>
+</html>
