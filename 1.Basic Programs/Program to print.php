@@ -45,15 +45,7 @@ hr { border: 0; border-top: 1px solid #ccc; }
 <div class="output">
 <?php echo "Welcome to PHP"; ?>
 </div>
-<!-- Practical note: the heading identifies the concept demonstrated by this file. -->
-<!-- Output note: PHP results are rendered in the main content card. -->
-<!-- Styling note: responsive CSS is embedded in this same PHP file. -->
-<!-- Testing note: run through a PHP-enabled server to see the output. -->
-<!-- Maintenance note: keep the example logic and page markup together. -->
-<!-- Accessibility note: semantic headings help organize the page. -->
-<!-- Layout note: controls and output panels adapt to narrow screens. -->
-<!-- Review note: check the displayed result after changing sample values. -->
-<!-- Practical note: the heading identifies the concept demonstrated by this file. -->
+
 </main>
 </body>
 </html>
