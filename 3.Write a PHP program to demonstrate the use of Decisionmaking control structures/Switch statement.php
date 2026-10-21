@@ -1,10 +1,17 @@
 <?php
 $day = 2;
 switch ($day) {
-    case 1: $message = "Monday"; break;
-    case 2: $message = "Tuesday"; break;
-    case 3: $message = "Wednesday"; break;
-    default: $message = "Invalid day";
+    case 1:
+        $message = "Monday";
+        break;
+    case 2:
+        $message = "Tuesday";
+        break;
+    case 3:
+        $message = "Wednesday";
+        break;
+    default:
+        $message = "Invalid day";
 }
 ?>
 <!DOCTYPE html>
@@ -18,9 +25,7 @@ switch ($day) {
 <body>
 <main class="card">
 <h1>Switch Statement</h1>
-<section class="output">
-<?= htmlspecialchars($message, ENT_QUOTES, "UTF-8") ?>
-</section>
+<section class="output"><?= htmlspecialchars($message, ENT_QUOTES, "UTF-8") ?></section>
 </main>
 </body>
 </html>
