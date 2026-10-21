@@ -1,6 +1,10 @@
 <?php
 $a = 7;
-$message = ($a % 2 === 0) ? "Even number" : "Odd number";
+if ($a % 2 == 0) {
+    $message = "Even number";
+} else {
+    $message = "Odd number";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,9 +17,7 @@ $message = ($a % 2 === 0) ? "Even number" : "Odd number";
 <body>
 <main class="card">
 <h1>If-else Statement</h1>
-<section class="output">
-<?= htmlspecialchars($message, ENT_QUOTES, "UTF-8") ?>
-</section>
+<section class="output"><?= htmlspecialchars($message, ENT_QUOTES, "UTF-8") ?></section>
 </main>
 </body>
 </html>
