@@ -1,5 +1,9 @@
 <?php
-$student = ["name" => "Ritesh", "age" => 18, "course" => "BCA"];
+$student = [
+    "name" => "Ritesh",
+    "age" => 18,
+    "course" => "BCA"
+];
 $student["age"] = 19;
 ?>
 <!DOCTYPE html>
@@ -14,7 +18,11 @@ $student["age"] = 19;
 <main class="card">
 <h1>Associative Array</h1>
 <section class="output">
-<table><thead><tr><th>Key</th><th>Value</th></tr></thead><tbody><?php foreach ($student as $key => $value): ?><tr><td><?= htmlspecialchars((string) $key, ENT_QUOTES, "UTF-8") ?></td><td><?= htmlspecialchars((string) $value, ENT_QUOTES, "UTF-8") ?></td></tr><?php endforeach; ?></tbody></table>
+<table><thead><tr><th>Key</th><th>Value</th></tr></thead><tbody>
+<?php foreach ($student as $key => $value): ?>
+<tr><td><?= htmlspecialchars((string) $key, ENT_QUOTES, "UTF-8") ?></td><td><?= htmlspecialchars((string) $value, ENT_QUOTES, "UTF-8") ?></td></tr>
+<?php endforeach; ?>
+</tbody></table>
 </section>
 </main>
 </body>
