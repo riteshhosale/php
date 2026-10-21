@@ -1,7 +1,14 @@
 <?php
 class Student {
-    public string $name;
-    public function __construct(string $name) { $this->name = $name; }
+    public $name;
+
+    public function __construct($name) {
+        $this->name = $name;
+    }
+
+    public function display() {
+        return "Student Name: " . $this->name;
+    }
 }
 $obj = new Student("Ritesh");
 ?>
@@ -16,9 +23,7 @@ $obj = new Student("Ritesh");
 <body>
 <main class="card">
 <h1>Constructor to Initialize an Object</h1>
-<section class="output">
-<p>Student Name: <strong><?= htmlspecialchars($obj->name, ENT_QUOTES, "UTF-8") ?></strong></p>
-</section>
+<section class="output"><p><?= htmlspecialchars($obj->display(), ENT_QUOTES, "UTF-8") ?></p></section>
 </main>
 </body>
 </html>
