@@ -1,0 +1,13 @@
+
+<?php
+$fruits = array("Apple", "Mango", "Banana");
+
+echo $fruits[0] . "<br>";
+
+$fruits[1] = "Orange";
+$fruits[] = "Grapes";
+
+foreach ($fruits as $fruit) {
+    echo $fruit . "<br>";
+}
+?>
