@@ -51,9 +51,7 @@ hr { border: 0; border-top: 1px solid #ccc; }
 <section class="output">
 <?= htmlspecialchars($message, ENT_QUOTES, "UTF-8") ?>
 </section>
-<!-- Practical note: the heading identifies the concept demonstrated by this file. -->
-<!-- Output note: PHP results are rendered in the main content card. -->
-<!-- Styling note: responsive CSS is embedded in this same PHP file. -->
+
 </main>
 </body>
 </html>
